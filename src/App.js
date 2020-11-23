@@ -42,7 +42,7 @@ class App extends Component {
     const data = new FormData();
     data.append("file", this.state.file);
     axios
-      .post("/upload", data, {
+      .post("/mp4upload", data, {
         headers: {
           "Content-Type": "multipart/form-data",
         },

@@ -1,5 +1,5 @@
 {
-  "proxy": "http://localhost:8000/",
+  "proxy": "http://54.225.0.166/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
